@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>ESP_Notifycation</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Warning.cs" />
+    <Compile Remove="Warning.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Warning.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="sound.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <COMReference Include="MediaPlayer">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>22d6f304-b0f6-11d0-94ab-0080c74c7e95</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SmallBasicLibrary">
+      <HintPath>..\..\..\..\Program Files (x86)\Microsoft\Small Basic\SmallBasicLibrary.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>

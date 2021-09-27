@@ -1,0 +1,7 @@
+C:\Users\Owner\Desktop\ESP-Notifycation.exe
+C:\Users\Owner\Desktop\ESP-Notifycation.dll
+C:\Users\Owner\Desktop\ESP-Notifycation.deps.json
+C:\Users\Owner\Desktop\ESP-Notifycation.runtimeconfig.json
+C:\Users\Owner\Desktop\ESP-Notifycation.pdb
+C:\Users\Owner\Desktop\SmallBasicLibrary.dll
+C:\Users\Owner\Desktop\SmallBasicLibrary.xml
